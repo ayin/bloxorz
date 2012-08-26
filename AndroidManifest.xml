@@ -29,7 +29,6 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
-	<receiver android:name="net.miidi.credit.CPAFeeReceiver"/>
 	<meta-data android:name="installed_auto_start_app" android:value="true"/>
 	
 </manifest>
