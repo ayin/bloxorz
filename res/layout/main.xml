@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background"
+>
+	<com.androidapk.ayin.bloxorz.GameView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/IdGameView"
+	/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+	>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		>
+			<LinearLayout
+				android:id="@+id/adLayout" 
+				android:layout_width="wrap_content" 
+				android:layout_height="50dp" 
+			/>
+			<TextView
+				android:text="音效"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			/>
+			<CheckBox
+				android:id="@+id/MusicOn"
+				android:checked="false"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+			/>
+			<Button
+				android:id="@+id/gameInfo"
+				android:background="@drawable/action_help"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:onClick="BtnOnClick"
+			/>
+			<TextView
+				android:id="@+id/IdTextView"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#000000"
+				android:text="第  0/33 关"
+			/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			
+		>
+		<LinearLayout
+			android:layout_height="wrap_content" 
+			android:layout_gravity="bottom"
+			android:layout_width="wrap_content"
+			android:layout_margin="20px"
+		>
+			<com.androidapk.ayin.bloxorz.DirecterView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			/>
+			
+		</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

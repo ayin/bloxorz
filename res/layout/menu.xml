@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/menu"
+>
+	<Button 
+		android:id="@+id/btnUp" 
+		android:layout_width="wrap_content" 	
+		android:layout_height="wrap_content"
+		android:onClick="BtnOnClick"
+		android:background="@drawable/btnup"
+		android:layout_x="30px"
+		android:layout_y="1px"
+	></Button>
+	<Button 
+		android:id="@+id/btnLeft"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="BtnOnClick"
+		android:background="@drawable/btnleft"
+		android:layout_x="0px"
+		android:layout_y="2px"
+	></Button>
+	<Button 
+		android:id="@+id/btnDown"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:onClick="BtnOnClick"
+		android:background="@drawable/btndown"
+		android:layout_x="30px"
+		android:layout_y="59px"
+	></Button>
+	<Button 
+		android:id="@+id/btnRight"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:onClick="BtnOnClick"
+		android:background="@drawable/btnright"
+		android:layout_x="109px"
+		android:layout_y="2px"
+	></Button>
+		<Button 
+		android:id="@+id/btnChange"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:onClick="BtnOnClick"
+		android:background="@drawable/btnselect"
+		android:layout_x="29px"
+		android:layout_y="29px"
+	></Button>
+</AbsoluteLayout>
