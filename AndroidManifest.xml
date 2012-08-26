@@ -16,20 +16,9 @@
             </intent-filter>
         </activity>
 
-		<activity android:name="net.youmi.android.AdActivity" 
-			android:configChanges="keyboard|keyboardHidden|orientation"/> 
 		<activity android:name="com.google.ads.AdActivity"
               android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
-        <activity android:name="com.baidu.AppActivity"  
-			android:configChanges="keyboard|keyboardHidden|orientation" /> 
-			<meta-data android:name="BaiduMobAd_DEBUG_TOKEN" android:value="adview" /> 
-		<activity android:name="cn.domob.android.ads.DomobActivity" 
-			android:theme =  "@android:style/Theme.Translucent" />
-		<activity android:name="com.tencent.mobwin.MobinWINBrowserActivity" /> 
-		<activity android:name="com.umengAd.android.UmengAdDetailActivity" 
-		  android:configChanges="keyboardHidden|orientation" 
-			android:theme="@android:style/Theme.Translucent" /> 
-			
+
     </application>
     
     <uses-permission android:name="android.permission.INTERNET" />
